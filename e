@@ -473,8 +473,3 @@ function myCheck(_)
 		end
 	end
 end
-local t
-t = createTimer(nil)
-timer_setInterval(t, 500)
-timer_onTimer(t, myCheck)
-timer_setEnabled(t, true)
